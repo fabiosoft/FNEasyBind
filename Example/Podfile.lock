@@ -1,0 +1,16 @@
+PODS:
+  - FNEasyBind (0.1.0)
+
+DEPENDENCIES:
+  - FNEasyBind (from `../`)
+
+EXTERNAL SOURCES:
+  FNEasyBind:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FNEasyBind: 062099c4d460af3d007a589fbbd105154583ed1c
+
+PODFILE CHECKSUM: 09dbb709265df58f4403e5734ce8a12e0f2bf440
+
+COCOAPODS: 1.8.4
