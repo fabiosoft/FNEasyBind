@@ -36,11 +36,12 @@ public class Observable<T> {
     }
     
     /// When you use the .subscribe method, you are subscribing an event handler to an observable sequence. In the closure, you specify how you want to handle the different events that are emitted by the sequence. In this case, regardless of the event type, we are printing the event to the console.
-    ///
-    /// You can see the output is: (TO BE IMPLEMENTED)
+    /// - Important: Alway use [weak self] to avoid retain cycles
+    /// - Note:
+    /// You can see the output is:
     /// - next(One), next(Two), next(Three), next(Four), completed
     ///
-    /// Under the hood, Event is simply an enum with three cases:
+    /// Under the hood, Event is simply an enum with cases. (TO BE IMPLEMENTED)
     /// - Parameters:
     ///   - queue: optionally dispatch on this queue
     ///   - observer: subscribed observer
