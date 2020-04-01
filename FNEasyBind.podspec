@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = 'FNEasyBind'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of FNEasyBind.'
+  s.summary          = 'FNEasyBind is a very basic and simple implementation of observables you can subscribe on.'
   
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
