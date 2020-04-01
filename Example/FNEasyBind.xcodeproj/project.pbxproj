@@ -30,7 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1A3A77ED5EB7FDBEDE750900 /* FNEasyBind.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FNEasyBind.podspec; path = ../FNEasyBind.podspec; sourceTree = "<group>"; };
+		1A3A77ED5EB7FDBEDE750900 /* FNEasyBind.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FNEasyBind.podspec; path = ../FNEasyBind.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		43477BFED9E1BBF8EDFA56FE /* Pods-FNEasyBind_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FNEasyBind_Tests.release.xcconfig"; path = "Target Support Files/Pods-FNEasyBind_Tests/Pods-FNEasyBind_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4D95A44AF50FC6C22345995D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5A6245C1C40C186ADA73DF10 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
