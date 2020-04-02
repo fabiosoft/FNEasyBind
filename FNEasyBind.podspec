@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary          = 'FNEasyBind is a very basic and simple implementation of observables you can subscribe on.'
   
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+FNEasyBind is a very basic and simple implementation of observables you can subscribe on. This library is intended to be used instead of importing entire RxSwift library, but it doesn't replace it.
                        DESC
 
   s.homepage         = 'https://github.com/fabiosoft/FNEasyBind'
