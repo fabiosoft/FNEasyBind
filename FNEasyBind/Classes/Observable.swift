@@ -194,8 +194,18 @@ public class Variable<T>: Observable<T> {
         return super.subscribe(queue, observer)
     }
     
-    public override func onNext(value:T){
+    /// Updates the publish subject using the given value.
+    public func update(_ value: Value) {
+        let oldValue = _value
         self.value = value
+        
+        // We inform the observer here instead of using `didSet` on `_value` to prevent unwrapping an optional (`_value` is nullable, as we're starting empty).
+        // Unwrapping lead to issues / crashes on having an underlying optional type, e.g. `PublishSubject<Int?>`.
+        notifyObservers(value: value, oldValue: oldValue)
+    }
+    
+    public override func onNext(value:T){
+        self.update(value)
     }
 }
 
